@@ -22,7 +22,7 @@ features = [
 
 X = df[features]
 model = IsolationForest(
-    contamination=0.20,
+    contamination=0.30,
     random_state=42
 )
 
