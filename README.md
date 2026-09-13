@@ -26,13 +26,7 @@ mplads-risk-detection-api/
 ├── requirements.txt
 └── README.md
 Tech Stack
-Python
-FastAPI
-Scikit-learn
-Pandas
-NumPy
-Joblib
-Uvicorn
+Python,FastAPI,Scikit-learn,Pandas,NumPy,Joblib,Uvicorn
 Setup
 1. Clone the repository
 git clone <YOUR_GITHUB_REPOSITORY_URL>
