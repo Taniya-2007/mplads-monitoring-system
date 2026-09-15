@@ -1,16 +1,58 @@
-# React + Vite
+# MPLADS Monitoring System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An AI-powered dashboard and risk detection system for monitoring MPLADS projects.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project combines a React + Vite frontend dashboard with a FastAPI + Machine Learning backend.
 
-## React Compiler
+The system helps monitor project information, visualize risk indicators, and detect unusual project patterns using Isolation Forest.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- React-based monitoring dashboard
+- Project statistics and risk visualization
+- FastAPI backend
+- Isolation Forest anomaly detection
+- Cost overrun calculation
+- Risk score generation
+- REST API endpoint for project prediction
+- Swagger UI for API testing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Stack
+
+### Frontend
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- Recharts
+
+### Backend
+- Python
+- FastAPI
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
+- Uvicorn
+
+## Project Structure
+
+```text
+mplads-monitoring-system/
+│
+├── src/
+│   ├── components/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/
+├── main.py
+├── train_model.py
+├── projects.csv
+├── isolation_forest.pkl
+├── requirements.txt
+├── package.json
+└── README.md
